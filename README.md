@@ -1,4 +1,5 @@
 *I set out to build the smallest container image that I could that was still able to do something useful. 
+
 ![](image.png)
 
 # Bloated Containers

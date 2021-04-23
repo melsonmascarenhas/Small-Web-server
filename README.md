@@ -34,7 +34,8 @@ server.listen(port, hostname, () => {
 ```
 *and built it into an image starting the official node base image:*
 
-```FROM node:14
+```
+FROM node:14
 RUN mkdir ~/server
 WORKDIR /server
 COPY . /server

@@ -34,9 +34,10 @@ server.listen(port, hostname, () => {
 ```
 *and built it into an image starting the official node base image:*
 
-```dockerfile
-FROM node:14
-COPY . .
+```FROM node:14
+RUN mkdir ~/server
+WORKDIR /server
+COPY . /server
 CMD ["node", "index.js"]
 ```
 # Getting Started

@@ -13,7 +13,7 @@
 *The rules are pretty simple:*
 
     * The container should serve the contents of a file over http on the port of your choosing
-    * No volume mounts are allowed (Also known as “The Melson's Rule” 😜)
+    * No volume mounts are allowed 
     
 ## Naive Solution
 
